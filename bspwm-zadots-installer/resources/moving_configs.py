@@ -27,6 +27,7 @@ def moving_dir_configs():
 
     for dir_config in dir_configs:
         os.system(MOVE_TEMPLATE.substitute(dir=dir_config))
+    os.system("mv Pictures ~/")
 
 def moving_file_configs():
 
