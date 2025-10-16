@@ -1,4 +1,12 @@
 # bspwm-zadots
 
-мои дотс файлы для bspwm.
-Инсталлер на python
+Мои dots дл bspwm.
+
+## Установка
+
+```zsh
+git clone https://github.com/saniqP/bspwm-zadots.git
+cd bspwm-zadots
+chmod +x install.sh
+./install.sh
+```
