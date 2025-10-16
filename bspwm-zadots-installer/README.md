@@ -1,4 +1,4 @@
-#Instraller
+# Instraller
 
 Тут python инсталлер.
 
