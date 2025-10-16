@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 installer/main.py
+python3 bspwm-zadots-installer/main.py
