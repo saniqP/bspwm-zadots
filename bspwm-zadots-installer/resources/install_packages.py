@@ -31,9 +31,9 @@ def install_pacman_packages():
     os.system("sudo pacman -Suy")
 
     for package in pacman:
-        print(f"Installing package {package}", end='\r')
+        print(f"Installing package {package}")
 
-        result = os.system(f"sudo pacman -S {package} > /dev/null 2>&1")
+        result = os.system(f"sudo pacman -S {package}")
 
         if result != 0:
             print(f"Failed to install package {package}")
@@ -52,8 +52,8 @@ def install_paru_packages():
     os.chdir(old_dir)
 
     for package in paru:
-        print(f"Installing package {package}", end='\r')
-        result = os.system(f"paru -S {package} > /dev/null 2>&1")
+        print(f"Installing package {package}")
+        result = os.system(f"paru -S {package}")
         if result != 0:
             print(f"Failed to install package {package}")
         else:
